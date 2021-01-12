@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SvitSoft</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html" id="logo">logo</a>
+            <a href="#" class="language" style="color:#4E254F;">ua</a>
+            <a href="#" class="language">ru</a>
+            <a href="#" class="language">en</a>
+        </div>
+
+        <div id="menu" class="menu">
+            <img id="dots" src="dots.png">
+            <ul>
+                <li>Головна</a></li>
+                <li> Про компанію</a></li>
+                <li> Варіанти придбання</a></li>
+                <li> Варіанти інвестування</a></li>
+                <li> Новини</a></li>
+                <li> Документи</a></li>
+                <li> Контакти</a></li>
+                <li> Співробітництво</a></li>
+                <span id="fot">Дизайн та розробка - <span style="color: #ed4156">Svitsoft</span></span>
+            </ul>
+
+
+        </div>
+
+        <script>
+            let menuElem = document.getElementById('menu');
+            let titleElem = document.getElementById('dots');
+
+
+            titleElem.onclick = ()=> {
+                menuElem.classList.toggle('open');
+                document.children[0].children[1].children[1].classList.toggle("visible");
+                document.children[0].children[1].children[0].children[1].children[0].classList.toggle("dot")
+            };
+        </script>
+
+
+    </header>
+    <section id="hero">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 class="hero-h1">Надійний<br>забудовник</h1>
+                <p class="hero-p">– это 7 лет успешной работы на украинском рынке. Более 700 квартир уже продано, а в планах компании построить 120 тыс. метров жилой площади.</p>
+            </div>
+        </div>
+
+        <button type="button" class="btn">
+            <span style="position: absolute;left: 10%;top: 36%;">ПРО КОМПАНИЮ</span>
+            <img src="Vector.png" style="position: absolute;right: 24%;top: -5%;">
+            <img src="row.png" style="position: absolute;right: 9%;bottom: 30%;">
+        </button>
+        <div class="footer">
+            <a href="#" class="number" style="color: #9ACCC2;font-weight: bold; opacity: 1;">01</a>
+            <a href="#" class="number">02</a>
+            <a href="#" class="number">03</a>
+            <a href="#" class="number">04</a>
+            <h3 class="footer-h3">Акційна пропозиція №1</h3>
+            <p class="footer-text">Забудовник – это 5 лет успешной работы на украинском рынке. Успешной работы на украинском рынке.</p>
+        </div>
+        <img src="bottom.jpg" class="footer-photo">
+    </section>
+</body>
+
+</html>
