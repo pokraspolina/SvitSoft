@@ -52,7 +52,7 @@ a {
     color: #c8bbc8;
 }
 header{
-	z-index: 100;
+    z-index: 100;
 }
 .header {
     padding: 1% 0px;
@@ -191,38 +191,38 @@ header{
 }
 
 @media(min-width: 1768px) {
-	.hero-text {
+    .hero-text {
 
      bottom: 30vh;
-	}
+    }
     .hero-image {
         height: 88.5%;
     }
     .btn {
-	    font-size: 1em;
-	    color: white;
-	    position: absolute;
-	    width: 14vw;
-	    height: 6vh;
-	    top: 27%;
-	    background: #4E254F;
-	    right: 10%;
-	}
-	.hero-h1 {
-		font-size: 3em;
-	}
-	.footer-h3 {
+        font-size: 1em;
+        color: white;
+        position: absolute;
+        width: 14vw;
+        height: 6vh;
+        top: 27%;
+        background: #4E254F;
+        right: 10%;
+    }
+    .hero-h1 {
+        font-size: 3em;
+    }
+    .footer-h3 {
     font-size: 1.5em;
-	}
-	.footer-text {
-	    font-size: 1.3em;
-	    line-height: 1.5em;
-	}
-	#fot {
-	    font-size: 21px;
-	    line-height: 16px;
-	    padding-top: 94px;
-	}
+    }
+    .footer-text {
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+    #fot {
+        font-size: 21px;
+        line-height: 16px;
+        padding-top: 94px;
+    }
 }
 
 @media(min-width: 1390px) and (max-width: 1500px) {
@@ -235,12 +235,12 @@ header{
         height: 31%;
     }
     .hero-p, .footer-text  {
-	    font-size: 1.2em;
-	    line-height: 1.5em;
-	}
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
 }
 @media(max-width: 1200px){
-	.footer-text {
+    .footer-text {
     font-size: 10px;
     line-height: 18px;
 }
@@ -250,7 +250,7 @@ header{
     margin-top: 5px;
 }
 .number{
-	font-size: 13px;
+    font-size: 13px;
 }
 .hero-h1 {
 
@@ -258,25 +258,25 @@ header{
 }
 }
 @media (max-width: 1085px){
-	.language, .footer-photo {
+    .language, .footer-photo {
         display: none;
     }
 }
 
 @media (min-width: 850px) and (max-width: 1084px){
-	.hero-image {
+    .hero-image {
         height: 92.7%;
     }
 
     .header {
         height: 65px;
         padding: 1% 0px;
-    	width: 120px;
+        width: 120px;
     }
 
 
     #dots {
-    	top: 2%;
+        top: 2%;
         width: 25px;
     }
 
@@ -309,14 +309,14 @@ header{
     font-size: 0.8em;
     line-height: 2.8vw;
     padding-right: 11px;
-	}
+    }
 }
 
 @media (max-width: 849px){
-	.hero-h1 {
+    .hero-h1 {
     font-size: 30px;
 }
-	.hero-image {
+    .hero-image {
     height: 93.8%;
 }
 
@@ -338,8 +338,8 @@ header{
 }
 
 .menu ul{
-	font-sizw:20px;
-	}
+    font-sizw:20px;
+    }
 .footer-h3 {
     font-size: 1.2em;
 }
@@ -371,81 +371,16 @@ header{
 
     padding-top: 111px;}
 }
-@media(min-width: 451) and (max-width: 647px){
-	.hero-h1 {
+@media(max-width: 647px){
+    .hero-h1 {
     font-size: 1.3em;
-	}
-	.footer-text, .hero-p, .number {
-		font-size: 13px;
-	}
-	.hero-image {
-    		height: 89.8%;
-	}
-	.btn {
-    width: 28vw;
-    height: 7vh;
-    top: 36vh;
-    font-size: 11px;
-	}
-	#fot {
-    font-size: 17px;
-    padding-top: 94px;
-	}
+    }
 }
-@media (min-width: 401px) and (max-width: 450px){
-	.hero-image{
-		height: 96.8%;
-	}
-.footer {
-    left: 3%;
-    background: linear-gradient(0deg, transparent 0%, #4E254F 0%);
-    position: absolute;
-    top: 32vh;
-    right: 0%;
-    padding: 3% 1% 1% 3%;
-    width: 93%;
-    height: 23vh;
-    z-index: 100;
-}
-.menu ul{
-	font-size: 22px;
-}
-#fot {
-    font-size: 16px;
-    line-height: 85px;
-}
-.hero-text {
-    width: 93%;
-    left: 3%;
-    height: 28vh;
-    bottom: 16vh;
-} 
-.hero-p{
-	font-size: 0.8em;
-}
-.btn {
-    font-size: 1em;
-    color: white;
-    position: absolute;
-    height: 64px;
-    background: #4E254F;
-    left: 3%;
-    width: 93%;
-    top: 85vh;
-#logo {
-    font-size: 30px;
-	}
-#dots{
-	width: 19px;
-    top: 1.5%;
-}
-}
-
-@media (min-width: 300px) and (max-width: 400px){
-	.hero-image{
-		height: 96.8%;
-	}
-	.footer {
+@media (min-width: 300px) and (max-width: 450px){
+    .hero-image{
+        height: 96.8%;
+    }
+    .footer {
     left: 3%;
     background: linear-gradient(0deg, transparent 0%, #4E254F 0%);
     position: absolute;
@@ -457,7 +392,7 @@ header{
     z-index: 100;
 }
 .menu ul{
-	font-size: 22px;
+    font-size: 22px;
 }
 #fot {
     font-size: 16px;
@@ -470,7 +405,7 @@ header{
     bottom: 16vh;
 } 
 .hero-p{
-	font-size: 0.8em;
+    font-size: 0.8em;
 }
 .btn {
     font-size: 1em;
@@ -484,10 +419,10 @@ header{
     top: 88vh;
 }
 #logo{
-	font-size: 6vw;
+    font-size: 6vw;
 }
 #dots{
-	width: 19px;
+    width: 19px;
     top: 1.5%;
 }
 }
