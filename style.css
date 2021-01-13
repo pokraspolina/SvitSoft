@@ -337,7 +337,9 @@ header{
     line-height: 1.4em;
 }
 
-
+.menu ul{
+	font-sizw:20px;
+	}
 .footer-h3 {
     font-size: 1.2em;
 }
@@ -367,7 +369,7 @@ header{
 #fot {
     font-size: 17px;
 
-    padding-top: 196px;}
+    padding-top: 111px;}
 }
 @media(max-width: 647px){
 	.hero-h1 {
