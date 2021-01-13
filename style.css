@@ -371,7 +371,7 @@ header{
 
     padding-top: 111px;}
 }
-@media(max-width: 647px){
+@media(min-width: 451) and (max-width: 647px){
 	.hero-h1 {
     font-size: 1.3em;
 	}
@@ -392,7 +392,56 @@ header{
     padding-top: 94px;
 	}
 }
-@media (min-width: 300px) and (max-width: 460px){
+@media (min-width: 401px) and (max-width: 450px){
+	.hero-image{
+		height: 96.8%;
+	}
+.footer {
+    left: 3%;
+    background: linear-gradient(0deg, transparent 0%, #4E254F 0%);
+    position: absolute;
+    top: 32vh;
+    right: 0%;
+    padding: 3% 1% 1% 3%;
+    width: 93%;
+    height: 23vh;
+    z-index: 100;
+}
+.menu ul{
+	font-size: 22px;
+}
+#fot {
+    font-size: 16px;
+    line-height: 85px;
+}
+.hero-text {
+    width: 93%;
+    left: 3%;
+    height: 28vh;
+    bottom: 16vh;
+} 
+.hero-p{
+	font-size: 0.8em;
+}
+.btn {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    height: 64px;
+    background: #4E254F;
+    left: 3%;
+    width: 93%;
+    top: 85vh;
+#logo {
+    font-size: 30px;
+	}
+#dots{
+	width: 19px;
+    top: 1.5%;
+}
+}
+
+@media (min-width: 300px) and (max-width: 400px){
 	.hero-image{
 		height: 96.8%;
 	}
