@@ -313,6 +313,9 @@ header{
 }
 
 @media (max-width: 849px){
+	.hero-h1 {
+    font-size: 22px;
+}
 	.hero-image {
     height: 87.8%;
 }
@@ -330,7 +333,7 @@ header{
 .footer-text,
 .hero-p,
 .number {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4em;
 }
 
