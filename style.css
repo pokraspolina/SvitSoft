@@ -375,6 +375,22 @@ header{
 	.hero-h1 {
     font-size: 1.3em;
 	}
+	.footer-text, .hero-p, .number {
+		font-size: 13px;
+	}
+	.hero-image {
+    		height: 89.8%;
+	}
+	.btn {
+    width: 28vw;
+    height: 7vh;
+    top: 36vh;
+    font-size: 11px;
+	}
+	#fot {
+    font-size: 17px;
+    padding-top: 94px;
+	}
 }
 @media (min-width: 300px) and (max-width: 450px){
 	.hero-image{
